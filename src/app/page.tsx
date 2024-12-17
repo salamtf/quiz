@@ -29,9 +29,9 @@ export default function Home() {
       <TimerSection timerSectionProps={timerSectionProps} />
       {/* <Footer/> */}
       <Footer />
-      {/* <div className="absolute bottom-20 right-0 left-0"> */}
+      <div className="fixed bottom-20 right-0 left-0">
         <ScrollButton />
-      {/* </div> */}
+      </div>
     </div>
   );
 }
