@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#ffffff", // White background
+        foreground: "#000000", // Black text
+      },
+      fontFamily: {
+        poppins: ["Poppins", "Arial", "Helvetica", "sans-serif"], // Extend font family
       },
     },
   },
